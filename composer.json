@@ -1,0 +1,23 @@
+{
+  "name": "qiuyihao/ElephantHub",
+  "description": "PHP Framework",
+  "keywords": [
+    "PHP",
+    "framework"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "qiuyihao",
+      "email": "qiuyihao@139.com"
+    }
+  ],
+  "require": {
+    "lcobucci/jwt": "^3.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "ElephantHub\\": "src/"
+    }
+  }
+}
